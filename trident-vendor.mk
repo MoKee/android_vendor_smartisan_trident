@@ -441,6 +441,18 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/trident/proprietary/vendor/lib/libsensorcal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorcal.so \
     vendor/smartisan/trident/proprietary/vendor/lib/libsensorslog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorslog.so \
     vendor/smartisan/trident/proprietary/vendor/lib/libssc_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssc_default_listener.so \
+    vendor/smartisan/trident/proprietary/vendor/lib/modules/modules.alias:$(TARGET_COPY_OUT_VENDOR)/lib/modules/modules.alias \
+    vendor/smartisan/trident/proprietary/vendor/lib/modules/modules.dep:$(TARGET_COPY_OUT_VENDOR)/lib/modules/modules.dep \
+    vendor/smartisan/trident/proprietary/vendor/lib/modules/pinctrl-wcd.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/pinctrl-wcd.ko \
+    vendor/smartisan/trident/proprietary/vendor/lib/modules/snd-soc-sdm845.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/snd-soc-sdm845.ko \
+    vendor/smartisan/trident/proprietary/vendor/lib/modules/snd-soc-wcd-mbhc.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/snd-soc-wcd-mbhc.ko \
+    vendor/smartisan/trident/proprietary/vendor/lib/modules/snd-soc-wcd-spi.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/snd-soc-wcd-spi.ko \
+    vendor/smartisan/trident/proprietary/vendor/lib/modules/snd-soc-wcd934x.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/snd-soc-wcd934x.ko \
+    vendor/smartisan/trident/proprietary/vendor/lib/modules/snd-soc-wcd9xxx.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/snd-soc-wcd9xxx.ko \
+    vendor/smartisan/trident/proprietary/vendor/lib/modules/snd-soc-wsa881x.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/snd-soc-wsa881x.ko \
+    vendor/smartisan/trident/proprietary/vendor/lib/modules/swr-wcd-ctrl.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/swr-wcd-ctrl.ko \
+    vendor/smartisan/trident/proprietary/vendor/lib/modules/wcd-core.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/wcd-core.ko \
+    vendor/smartisan/trident/proprietary/vendor/lib/modules/wcd-dsp-glink.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/wcd-dsp-glink.ko \
     vendor/smartisan/trident/proprietary/vendor/lib/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.ssc.so \
     vendor/smartisan/trident/proprietary/vendor/lib/vendor.goodix.hardware.fingerprintextension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.goodix.hardware.fingerprintextension@1.0.so \
     vendor/smartisan/trident/proprietary/vendor/lib64/com.novatek.fingerprint@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.novatek.fingerprint@1.0_vendor.so \
