@@ -234,7 +234,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/trident/proprietary/vendor/bin/dm-tool:$(TARGET_COPY_OUT_VENDOR)/bin/dm-tool \
     vendor/smartisan/trident/proprietary/vendor/bin/hw/android.hardware.biometrics.goodixfingerprint@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.goodixfingerprint@2.1-service \
     vendor/smartisan/trident/proprietary/vendor/bin/hw/android.hardware.biometrics.nvtfingerprint@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.nvtfingerprint@2.1-service \
-    vendor/smartisan/trident/proprietary/vendor/bin/hw/android.hardware.vibrator@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.vibrator@1.0-service \
     vendor/smartisan/trident/proprietary/vendor/bin/logic_volume:$(TARGET_COPY_OUT_VENDOR)/bin/logic_volume \
     vendor/smartisan/trident/proprietary/vendor/bin/sensors.qcom:$(TARGET_COPY_OUT_VENDOR)/bin/sensors.qcom \
     vendor/smartisan/trident/proprietary/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
@@ -251,7 +250,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/trident/proprietary/vendor/etc/camera/megvii/model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/megvii/model \
     vendor/smartisan/trident/proprietary/vendor/etc/init/android.hardware.biometrics.goodixfingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.goodixfingerprint@2.1-service.rc \
     vendor/smartisan/trident/proprietary/vendor/etc/init/android.hardware.biometrics.nvtfingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.nvtfingerprint@2.1-service.rc \
-    vendor/smartisan/trident/proprietary/vendor/etc/init/android.hardware.vibrator@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.vibrator@1.0-service.rc \
     vendor/smartisan/trident/proprietary/vendor/etc/init/logic_volume.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/logic_volume.rc \
     vendor/smartisan/trident/proprietary/vendor/etc/logic_volume.conf:$(TARGET_COPY_OUT_VENDOR)/etc/logic_volume.conf \
     vendor/smartisan/trident/proprietary/vendor/etc/perf/perf-profile0.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perf-profile0.conf \
@@ -412,12 +410,10 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/trident/proprietary/vendor/lib/camera/systemdefault.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/systemdefault.bin \
     vendor/smartisan/trident/proprietary/vendor/lib/com.novatek.fingerprint@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.novatek.fingerprint@1.0_vendor.so \
     vendor/smartisan/trident/proprietary/vendor/lib/hw/android.hardware.audio@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio@2.0-impl.so \
-    vendor/smartisan/trident/proprietary/vendor/lib/hw/android.hardware.vibrator@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.vibrator@1.0-impl.so \
     vendor/smartisan/trident/proprietary/vendor/lib/hw/audio.primary.sdm845.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.sdm845.so \
     vendor/smartisan/trident/proprietary/vendor/lib/hw/camera.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.qcom.so \
     vendor/smartisan/trident/proprietary/vendor/lib/hw/com.qti.chi.override.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/com.qti.chi.override.so \
     vendor/smartisan/trident/proprietary/vendor/lib/hw/nvtfingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/nvtfingerprint.default.so \
-    vendor/smartisan/trident/proprietary/vendor/lib/hw/vibrator.sdm845.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vibrator.sdm845.so \
     vendor/smartisan/trident/proprietary/vendor/lib/libSensorManagerHAL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSensorManagerHAL.so \
     vendor/smartisan/trident/proprietary/vendor/lib/libarcintegration.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcintegration.so \
     vendor/smartisan/trident/proprietary/vendor/lib/libaudio_log_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio_log_utils.so \
@@ -458,10 +454,8 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/trident/proprietary/vendor/lib/vendor.goodix.hardware.fingerprintextension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.goodix.hardware.fingerprintextension@1.0.so \
     vendor/smartisan/trident/proprietary/vendor/lib64/com.novatek.fingerprint@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.novatek.fingerprint@1.0_vendor.so \
     vendor/smartisan/trident/proprietary/vendor/lib64/hw/android.hardware.audio@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio@2.0-impl.so \
-    vendor/smartisan/trident/proprietary/vendor/lib64/hw/android.hardware.vibrator@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.vibrator@1.0-impl.so \
     vendor/smartisan/trident/proprietary/vendor/lib64/hw/audio.primary.sdm845.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.sdm845.so \
     vendor/smartisan/trident/proprietary/vendor/lib64/hw/nvtfingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/nvtfingerprint.default.so \
-    vendor/smartisan/trident/proprietary/vendor/lib64/hw/vibrator.sdm845.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vibrator.sdm845.so \
     vendor/smartisan/trident/proprietary/vendor/lib64/libaudio_log_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudio_log_utils.so \
     vendor/smartisan/trident/proprietary/vendor/lib64/libcamxfdalgov7.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxfdalgov7.so \
     vendor/smartisan/trident/proprietary/vendor/lib64/libcamxfdengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxfdengine.so \
