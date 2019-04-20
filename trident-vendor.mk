@@ -168,6 +168,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/trident/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
     vendor/smartisan/trident/proprietary/lib/librcc.so:system/lib/librcc.so \
     vendor/smartisan/trident/proprietary/lib/libsdm-disp-apis.so:system/lib/libsdm-disp-apis.so \
+    vendor/smartisan/trident/proprietary/lib/libsdsprpc_system.so:system/lib/libsdsprpc_system.so \
     vendor/smartisan/trident/proprietary/lib/libsensorslog.so:system/lib/libsensorslog.so \
     vendor/smartisan/trident/proprietary/lib/libsmart_autohdr.so:system/lib/libsmart_autohdr.so \
     vendor/smartisan/trident/proprietary/lib/libsmcinvokecred.so:system/lib/libsmcinvokecred.so \
@@ -217,6 +218,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/trident/proprietary/lib64/libqti_performance.so:system/lib64/libqti_performance.so \
     vendor/smartisan/trident/proprietary/lib64/librcc.so:system/lib64/librcc.so \
     vendor/smartisan/trident/proprietary/lib64/libsdm-disp-apis.so:system/lib64/libsdm-disp-apis.so \
+    vendor/smartisan/trident/proprietary/lib64/libsdsprpc_system.so:system/lib64/libsdsprpc_system.so \
     vendor/smartisan/trident/proprietary/lib64/libsensorslog.so:system/lib64/libsensorslog.so \
     vendor/smartisan/trident/proprietary/lib64/libsnsdiaglog.so:system/lib64/libsnsdiaglog.so \
     vendor/smartisan/trident/proprietary/lib64/libssc.so:system/lib64/libssc.so \
