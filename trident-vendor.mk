@@ -179,6 +179,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/trident/proprietary/vendor/bin/dm-tool:$(TARGET_COPY_OUT_VENDOR)/bin/dm-tool \
     vendor/smartisan/trident/proprietary/vendor/bin/garden_app:$(TARGET_COPY_OUT_VENDOR)/bin/garden_app \
     vendor/smartisan/trident/proprietary/vendor/bin/hvdcp_opti:$(TARGET_COPY_OUT_VENDOR)/bin/hvdcp_opti \
+    vendor/smartisan/trident/proprietary/vendor/bin/hw/android.hardware.biometrics.fpcfingerprint@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fpcfingerprint@2.1-service \
     vendor/smartisan/trident/proprietary/vendor/bin/hw/android.hardware.biometrics.goodixfingerprint@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.goodixfingerprint@2.1-service \
     vendor/smartisan/trident/proprietary/vendor/bin/hw/android.hardware.biometrics.nvtfingerprint@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.nvtfingerprint@2.1-service \
     vendor/smartisan/trident/proprietary/vendor/bin/hw/vendor.qti.gnss@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.gnss@1.1-service \
@@ -201,6 +202,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/trident/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
     vendor/smartisan/trident/proprietary/vendor/etc/camera/camxoverridesettings.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camxoverridesettings.txt \
     vendor/smartisan/trident/proprietary/vendor/etc/camera/megvii/model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/megvii/model \
+    vendor/smartisan/trident/proprietary/vendor/etc/init/android.hardware.biometrics.fpcfingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fpcfingerprint@2.1-service.rc \
     vendor/smartisan/trident/proprietary/vendor/etc/init/android.hardware.biometrics.goodixfingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.goodixfingerprint@2.1-service.rc \
     vendor/smartisan/trident/proprietary/vendor/etc/init/android.hardware.biometrics.nvtfingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.nvtfingerprint@2.1-service.rc \
     vendor/smartisan/trident/proprietary/vendor/etc/init/logic_volume.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/logic_volume.rc \
@@ -217,6 +219,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/trident/proprietary/vendor/etc/perf/perf-profile7.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perf-profile7.conf \
     vendor/smartisan/trident/proprietary/vendor/etc/perf/perf-profile8.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perf-profile8.conf \
     vendor/smartisan/trident/proprietary/vendor/etc/perf/perf-profile9.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perf-profile9.conf \
+    vendor/smartisan/trident/proprietary/vendor/etc/permissions/com.fingerprints.extension.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.fingerprints.extension.xml \
     vendor/smartisan/trident/proprietary/vendor/etc/sap.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sap.conf \
     vendor/smartisan/trident/proprietary/vendor/etc/scve/facereco/gModel.dat:$(TARGET_COPY_OUT_VENDOR)/etc/scve/facereco/gModel.dat \
     vendor/smartisan/trident/proprietary/vendor/etc/sensors/config/ak991x_dri_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ak991x_dri_0.json \
@@ -298,6 +301,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/trident/proprietary/vendor/firmware/a630_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_zap.b02 \
     vendor/smartisan/trident/proprietary/vendor/firmware/a630_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_zap.elf \
     vendor/smartisan/trident/proprietary/vendor/firmware/a630_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_zap.mdt \
+    vendor/smartisan/trident/proprietary/vendor/framework/com.fingerprints.extension.jar:$(TARGET_COPY_OUT_VENDOR)/framework/com.fingerprints.extension.jar \
     vendor/smartisan/trident/proprietary/vendor/lib/camera/com.qti.sensor.imx318.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.imx318.so \
     vendor/smartisan/trident/proprietary/vendor/lib/camera/com.qti.sensor.imx350.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.imx350.so \
     vendor/smartisan/trident/proprietary/vendor/lib/camera/com.qti.sensor.imx362.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.imx362.so \
@@ -362,6 +366,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/trident/proprietary/vendor/lib/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigvideolite.bin \
     vendor/smartisan/trident/proprietary/vendor/lib/camera/imx258tuned.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/imx258tuned.bin \
     vendor/smartisan/trident/proprietary/vendor/lib/camera/systemdefault.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/systemdefault.bin \
+    vendor/smartisan/trident/proprietary/vendor/lib/com.fingerprints.extension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.fingerprints.extension@1.0.so \
     vendor/smartisan/trident/proprietary/vendor/lib/com.novatek.fingerprint@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.novatek.fingerprint@1.0_vendor.so \
     vendor/smartisan/trident/proprietary/vendor/lib/hw/android.hardware.audio@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio@2.0-impl.so \
     vendor/smartisan/trident/proprietary/vendor/lib/hw/audio.primary.sdm845.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.sdm845.so \
@@ -457,6 +462,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/trident/proprietary/vendor/lib/vendor.qti.gnss@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@1.0_vendor.so \
     vendor/smartisan/trident/proprietary/vendor/lib/vendor.qti.gnss@1.1_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@1.1_vendor.so \
     vendor/smartisan/trident/proprietary/vendor/lib/vendor.qti.hardware.wipower@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.wipower@1.0_vendor.so \
+    vendor/smartisan/trident/proprietary/vendor/lib64/com.fingerprints.extension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.fingerprints.extension@1.0.so \
     vendor/smartisan/trident/proprietary/vendor/lib64/com.novatek.fingerprint@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.novatek.fingerprint@1.0_vendor.so \
     vendor/smartisan/trident/proprietary/vendor/lib64/hw/android.hardware.audio@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio@2.0-impl.so \
     vendor/smartisan/trident/proprietary/vendor/lib64/hw/audio.primary.sdm845.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.sdm845.so \
