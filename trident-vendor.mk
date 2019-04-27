@@ -19,6 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/trident/proprietary/etc/elliptic_fusion_sensor.xml:system/etc/elliptic_fusion_sensor.xml \
     vendor/smartisan/trident/proprietary/etc/elliptic_sensor.xml:system/etc/elliptic_sensor.xml \
     vendor/smartisan/trident/proprietary/etc/fsync_db.config:system/etc/fsync_db.config \
+    vendor/smartisan/trident/proprietary/etc/permissions/android.wipower.xml:system/etc/permissions/android.wipower.xml \
     vendor/smartisan/trident/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/smartisan/trident/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/smartisan/trident/proprietary/etc/permissions/com.quicinc.wbc.xml:system/etc/permissions/com.quicinc.wbc.xml \
@@ -103,6 +104,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/trident/proprietary/etc/vstab_db_0_720p_video_30fps.config:system/etc/vstab_db_0_720p_video_30fps.config \
     vendor/smartisan/trident/proprietary/etc/vstab_db_1_1080p_video_30fps.config:system/etc/vstab_db_1_1080p_video_30fps.config \
     vendor/smartisan/trident/proprietary/etc/vstab_db_1_720p_video_30fps.config:system/etc/vstab_db_1_720p_video_30fps.config \
+    vendor/smartisan/trident/proprietary/framework/android.wipower.jar:system/framework/android.wipower.jar \
     vendor/smartisan/trident/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/smartisan/trident/proprietary/framework/com.quicinc.wbc.jar:system/framework/com.quicinc.wbc.jar \
     vendor/smartisan/trident/proprietary/framework/com.quicinc.wbcservice.jar:system/framework/com.quicinc.wbcservice.jar \
@@ -150,6 +152,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/trident/proprietary/lib/libsymphony-cpu.so:system/lib/libsymphony-cpu.so \
     vendor/smartisan/trident/proprietary/lib/libsymphonypower.so:system/lib/libsymphonypower.so \
     vendor/smartisan/trident/proprietary/lib/libtt_panorama.so:system/lib/libtt_panorama.so \
+    vendor/smartisan/trident/proprietary/lib/libwipower_jni.so:system/lib/libwipower_jni.so \
     vendor/smartisan/trident/proprietary/lib/libxt_native.so:system/lib/libxt_native.so \
     vendor/smartisan/trident/proprietary/lib/vendor.qti.gnss@1.0.so:system/lib/vendor.qti.gnss@1.0.so \
     vendor/smartisan/trident/proprietary/lib/vendor.qti.gnss@1.1.so:system/lib/vendor.qti.gnss@1.1.so \
@@ -169,6 +172,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/trident/proprietary/lib64/libsns_low_lat_stream_stub.so:system/lib64/libsns_low_lat_stream_stub.so \
     vendor/smartisan/trident/proprietary/lib64/libsnsdiaglog.so:system/lib64/libsnsdiaglog.so \
     vendor/smartisan/trident/proprietary/lib64/libssc.so:system/lib64/libssc.so \
+    vendor/smartisan/trident/proprietary/lib64/libwipower_jni.so:system/lib64/libwipower_jni.so \
     vendor/smartisan/trident/proprietary/lib64/libxt_native.so:system/lib64/libxt_native.so \
     vendor/smartisan/trident/proprietary/lib64/vendor.qti.gnss@1.0.so:system/lib64/vendor.qti.gnss@1.0.so \
     vendor/smartisan/trident/proprietary/lib64/vendor.qti.gnss@1.1.so:system/lib64/vendor.qti.gnss@1.1.so \
@@ -187,6 +191,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/trident/proprietary/vendor/bin/pm-service:$(TARGET_COPY_OUT_VENDOR)/bin/pm-service \
     vendor/smartisan/trident/proprietary/vendor/bin/sensors.qcom:$(TARGET_COPY_OUT_VENDOR)/bin/sensors.qcom \
     vendor/smartisan/trident/proprietary/vendor/bin/slim_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/slim_daemon \
+    vendor/smartisan/trident/proprietary/vendor/bin/wipowerd:$(TARGET_COPY_OUT_VENDOR)/bin/wipowerd \
     vendor/smartisan/trident/proprietary/vendor/bin/xtra-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/xtra-daemon \
     vendor/smartisan/trident/proprietary/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/smartisan/trident/proprietary/vendor/etc/acdbdata/MTP/MTP_Codec_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Codec_cal.acdb \
@@ -512,7 +517,9 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/trident/proprietary/vendor/lib64/vendor.qti.hardware.wipower@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.wipower@1.0_vendor.so
 
 PRODUCT_PACKAGES += \
-    libloc_api_v02
+    libloc_api_v02 \
+    a4wpservice \
+    wipowerservice
 PRODUCT_COPY_FILES += \
     vendor/smartisan/trident/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/smartisan/trident/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \

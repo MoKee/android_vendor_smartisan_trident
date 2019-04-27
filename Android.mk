@@ -31,6 +31,30 @@ LOCAL_VENDOR_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := a4wpservice
+LOCAL_MODULE_OWNER := smartisan
+LOCAL_SRC_FILES := proprietary/priv-app/a4wpservice/a4wpservice.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_PRIVILEGED_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := wipowerservice
+LOCAL_MODULE_OWNER := smartisan
+LOCAL_SRC_FILES := proprietary/priv-app/wipowerservice/wipowerservice.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_PRIVILEGED_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := libantradio
 LOCAL_MODULE_OWNER := smartisan
 LOCAL_SRC_FILES_64 := proprietary/lib64/libantradio.so
