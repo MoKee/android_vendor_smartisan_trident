@@ -127,6 +127,8 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/trident/proprietary/lib/libaudioroute.so:system/lib/libaudioroute.so \
     vendor/smartisan/trident/proprietary/lib/libbeauty_momo_sm.so:system/lib/libbeauty_momo_sm.so \
     vendor/smartisan/trident/proprietary/lib/libcalibration_jni.so:system/lib/libcalibration_jni.so \
+    vendor/smartisan/trident/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
+    vendor/smartisan/trident/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
     vendor/smartisan/trident/proprietary/lib/libgnustl_shared.so:system/lib/libgnustl_shared.so \
     vendor/smartisan/trident/proprietary/lib/libifaa_jni.so:system/lib/libifaa_jni.so \
     vendor/smartisan/trident/proprietary/lib/libifaa_manager_interface.so:system/lib/libifaa_manager_interface.so \
