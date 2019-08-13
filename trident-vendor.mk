@@ -109,7 +109,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/trident/proprietary/framework/com.quicinc.wbc.jar:system/framework/com.quicinc.wbc.jar \
     vendor/smartisan/trident/proprietary/framework/com.quicinc.wbcservice.jar:system/framework/com.quicinc.wbcservice.jar \
     vendor/smartisan/trident/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
-    vendor/smartisan/trident/proprietary/lib/android.hardware.audio@2.0.so:system/lib/android.hardware.audio@2.0.so \
     vendor/smartisan/trident/proprietary/lib/libHalSuperSensorServer.so:system/lib/libHalSuperSensorServer.so \
     vendor/smartisan/trident/proprietary/lib/libSMTSensorCalLibNative.so:system/lib/libSMTSensorCalLibNative.so \
     vendor/smartisan/trident/proprietary/lib/libSNPE.so:system/lib/libSNPE.so \
@@ -123,7 +122,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/trident/proprietary/lib/libarcsoft_picselfie_algorithm.so:system/lib/libarcsoft_picselfie_algorithm.so \
     vendor/smartisan/trident/proprietary/lib/libarcsoft_refocus_sm.so:system/lib/libarcsoft_refocus_sm.so \
     vendor/smartisan/trident/proprietary/lib/libarcsoft_smart_denoise.so:system/lib/libarcsoft_smart_denoise.so \
-    vendor/smartisan/trident/proprietary/lib/libaudiohal.so:system/lib/libaudiohal.so \
     vendor/smartisan/trident/proprietary/lib/libaudioroute.so:system/lib/libaudioroute.so \
     vendor/smartisan/trident/proprietary/lib/libbeauty_momo_sm.so:system/lib/libbeauty_momo_sm.so \
     vendor/smartisan/trident/proprietary/lib/libcalibration_jni.so:system/lib/libcalibration_jni.so \
@@ -159,10 +157,8 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/trident/proprietary/lib/vendor.qti.gnss@1.0.so:system/lib/vendor.qti.gnss@1.0.so \
     vendor/smartisan/trident/proprietary/lib/vendor.qti.gnss@1.1.so:system/lib/vendor.qti.gnss@1.1.so \
     vendor/smartisan/trident/proprietary/lib/vendor.qti.hardware.ifaa@1.0.so:system/lib/vendor.qti.hardware.ifaa@1.0.so \
-    vendor/smartisan/trident/proprietary/lib64/android.hardware.audio@2.0.so:system/lib64/android.hardware.audio@2.0.so \
     vendor/smartisan/trident/proprietary/lib64/libSMTSensorCalLibNative.so:system/lib64/libSMTSensorCalLibNative.so \
     vendor/smartisan/trident/proprietary/lib64/lib_ifaa_tac.so:system/lib64/lib_ifaa_tac.so \
-    vendor/smartisan/trident/proprietary/lib64/libaudiohal.so:system/lib64/libaudiohal.so \
     vendor/smartisan/trident/proprietary/lib64/libaudioroute.so:system/lib64/libaudioroute.so \
     vendor/smartisan/trident/proprietary/lib64/libcalibration_jni.so:system/lib64/libcalibration_jni.so \
     vendor/smartisan/trident/proprietary/lib64/libifaa_jni.so:system/lib64/libifaa_jni.so \
@@ -373,7 +369,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/trident/proprietary/vendor/lib/camera/systemdefault.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/systemdefault.bin \
     vendor/smartisan/trident/proprietary/vendor/lib/com.fingerprints.extension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.fingerprints.extension@1.0.so \
     vendor/smartisan/trident/proprietary/vendor/lib/com.novatek.fingerprint@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.novatek.fingerprint@1.0_vendor.so \
-    vendor/smartisan/trident/proprietary/vendor/lib/hw/android.hardware.audio@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio@2.0-impl.so \
     vendor/smartisan/trident/proprietary/vendor/lib/hw/audio.primary.sdm845.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.sdm845.so \
     vendor/smartisan/trident/proprietary/vendor/lib/hw/camera.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.qcom.so \
     vendor/smartisan/trident/proprietary/vendor/lib/hw/com.qti.chi.override.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/com.qti.chi.override.so \
@@ -467,7 +462,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/trident/proprietary/vendor/lib/vendor.qti.hardware.wipower@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.wipower@1.0_vendor.so \
     vendor/smartisan/trident/proprietary/vendor/lib64/com.fingerprints.extension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.fingerprints.extension@1.0.so \
     vendor/smartisan/trident/proprietary/vendor/lib64/com.novatek.fingerprint@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.novatek.fingerprint@1.0_vendor.so \
-    vendor/smartisan/trident/proprietary/vendor/lib64/hw/android.hardware.audio@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio@2.0-impl.so \
     vendor/smartisan/trident/proprietary/vendor/lib64/hw/audio.primary.sdm845.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.sdm845.so \
     vendor/smartisan/trident/proprietary/vendor/lib64/hw/nvtfingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/nvtfingerprint.default.so \
     vendor/smartisan/trident/proprietary/vendor/lib64/hw/vendor.qti.gnss@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.gnss@1.1-impl.so \
