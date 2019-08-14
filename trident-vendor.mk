@@ -587,7 +587,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/trident/proprietary/vendor/lib/modules/modules.alias:$(TARGET_COPY_OUT_VENDOR)/lib/modules/modules.alias \
     vendor/smartisan/trident/proprietary/vendor/lib/modules/modules.dep:$(TARGET_COPY_OUT_VENDOR)/lib/modules/modules.dep \
     vendor/smartisan/trident/proprietary/vendor/lib/modules/pinctrl-wcd.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/pinctrl-wcd.ko \
-    vendor/smartisan/trident/proprietary/vendor/lib/modules/qca_cld3_wlan.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/qca_cld3_wlan.ko \
     vendor/smartisan/trident/proprietary/vendor/lib/modules/snd-soc-sdm845.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/snd-soc-sdm845.ko \
     vendor/smartisan/trident/proprietary/vendor/lib/modules/snd-soc-wcd-mbhc.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/snd-soc-wcd-mbhc.ko \
     vendor/smartisan/trident/proprietary/vendor/lib/modules/snd-soc-wcd-spi.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/snd-soc-wcd-spi.ko \
