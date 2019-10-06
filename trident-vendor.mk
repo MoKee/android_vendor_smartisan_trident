@@ -870,7 +870,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/trident/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
     vendor/smartisan/trident/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
     vendor/smartisan/trident/proprietary/etc/permissions/privapp-permissions-com.qualcomm.location.xml:system/etc/permissions/privapp-permissions-com.qualcomm.location.xml \
-    vendor/smartisan/trident/proprietary/etc/permissions/privapp-permissions-qti.xml:system/etc/permissions/privapp-permissions-qti.xml \
     vendor/smartisan/trident/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/smartisan/trident/proprietary/etc/permissions/qti_libpermissions.xml:system/etc/permissions/qti_libpermissions.xml \
     vendor/smartisan/trident/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
