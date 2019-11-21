@@ -231,6 +231,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/trident/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
     vendor/smartisan/trident/proprietary/vendor/etc/camera/camxoverridesettings.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camxoverridesettings.txt \
     vendor/smartisan/trident/proprietary/vendor/etc/camera/megvii/model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/megvii/model \
+    vendor/smartisan/trident/proprietary/vendor/etc/effects/imagis_phe.bin:$(TARGET_COPY_OUT_VENDOR)/etc/effects/imagis_phe.bin \
     vendor/smartisan/trident/proprietary/vendor/etc/init/android.hardware.biometrics.fpcfingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fpcfingerprint@2.1-service.rc \
     vendor/smartisan/trident/proprietary/vendor/etc/init/android.hardware.biometrics.goodixfingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.goodixfingerprint@2.1-service.rc \
     vendor/smartisan/trident/proprietary/vendor/etc/init/android.hardware.biometrics.nvtfingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.nvtfingerprint@2.1-service.rc \
